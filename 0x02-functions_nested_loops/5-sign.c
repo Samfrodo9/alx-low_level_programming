@@ -1,11 +1,12 @@
+#include <stdio.h>
 #include "main.h"
+#include <ctype.h>
 
 /**
- * print_sign -> prints sign based on the condition
- * @n: argument passed
- * Return: 1, 0, -1
+ * print_sign - check if character is lowercase
+ * @n: is an integer value
+ * Return: 0 always
  */
-
 int print_sign(int n)
 {
 	if (n > 0)
@@ -16,7 +17,6 @@ int print_sign(int n)
 	else if (n == 0)
 	{
 		_putchar('0');
-		return (0);
 	}
 	else
 	{
