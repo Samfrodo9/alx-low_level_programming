@@ -1,48 +1,24 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 
-
-int largest_number(int a, int b, int c)
-{
-
-	int largest;
-
-	if (a > b && a > c)
-	{
-		largest = a;
-	}
-	else if (b > a && b > c)
-	{
-		largest = b;
-	}
-	else
-	{
-		largest = c;
-	}
-
-	return (largest);
-}
-
 /**
-* main -> debugging example
-* Return: Always 0
+* main - causes an infinite loop
+* Return: 0
 */
+
 int main(void)
 {
-	int main(void)
-{
-        int a, b, c;
-        int largest;
+	int i;
 
-        a = 0;
-        b = 0;
-        c = 0;
+	printf("Infinite loop incoming :(\n");
 
-        largest = largest_number(a, b, c);
+	i = 0;
+	/**
+	*while (i < 10)
+	*{
+	*	putchar(i);
+	*}
+	*/
+	printf("Infinite loop avoided! \\o/\n");
 
-        printf("%d is the largest number\n", largest);
-
-        return (0);
-}
+	return (0);
 }
