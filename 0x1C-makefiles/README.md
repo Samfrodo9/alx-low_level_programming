@@ -17,4 +17,4 @@ If you want to run or update a task when certain files are updated, the `make` u
 - A `README.md` file, at the root of the folder of the project, is mandatory.
 
 ## Authors
-- [Oluwatomisin Isogun](https://@github.com/TosinISOGUN)
+- [Adeyemi Samuel](https://@github.com/Samfrodo9)
