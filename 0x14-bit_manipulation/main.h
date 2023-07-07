@@ -14,6 +14,6 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 int _puts(char *str);
 int _putchar(char c);
-int _pow(int base, int exponent);
-int _strlen(const char *b);
+/* int _pow(int base, int exponent); */
+/* int _strlen(const char *b); */
 #endif
