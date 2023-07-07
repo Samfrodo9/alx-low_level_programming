@@ -1,4 +1,4 @@
-"include "main.h"
+#include "main.h"
 
 /**
 * flip_bits - function that returns the number of buts
