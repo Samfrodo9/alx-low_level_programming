@@ -69,7 +69,30 @@ int _pow(int base, int exponent)
 			result = (result / base);
 	}
 
-	return result;
+	return (result);
+
+/**
+ * _strlen - A function that calculates the length of a string
+ * @b: string passed to the function
+ *
+ * Return: Length of string
+ */
+
+int _strlen(char *b)
+{
+	int len = 0;
+
+	if (b == NULL)
+		return (0);
+
+	while (b[len] != '/0')
+	{
+		len++;
+	}
+
+	return (len);
+}
+
 }
 
 #endif
