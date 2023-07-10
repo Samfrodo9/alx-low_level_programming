@@ -18,14 +18,14 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content == NULL)
 	{
-		fd = open(file_name, O_WRONLY);
+		fd = open(filename, O_WRONLY);
 		if (fd == -1)
 			return (-1);
 		else
 			return (1);
 	}
 
-	fd = open(file_name, O_WRONLY || O_APPEND);
+	fd = open(filename, O_APPEND);
 	i = 0;
 
 	while (!text_content[0])
