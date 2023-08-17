@@ -1,0 +1,38 @@
+#include "lists.h"
+
+/**
+ * dlistint_t - Adds a new node at the beginning of a dlinked list
+ * @head: address of head pointer
+ * @n: data to insert
+ */
+
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
+{
+	dlistint_s *input = (dlistint_t)malloc(sizeof(dlistint_t));
+	if(!
+
+	if (!(*head))
+	{
+		*head->next = NULL;
+		*head->n = n;
+		if (!(*head))
+			return NULL;
+		else
+			return &(*head->n);
+	}
+
+	dlistint_s *input = (dlistint_t)malloc(sizeof(dlistint_t));
+	if(!input)
+	{
+		print("Error");
+		return NULL);
+	}
+	
+	input->n = n
+	input->prev = *head;
+	input->next = *head->next;
+	*head->next->prev = input;
+	*head->next = input;
+	
+	return &(*head->n)
+}
