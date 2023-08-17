@@ -52,5 +52,5 @@ typedef struct dlistint_s
 ```
 
 ## Authors & Credits
-- [Oluwatomisin ISOGUN](https://github.com/TosinISOGUN)
+- [Adeyemi Samuel](https://github.com/Samfrodo9)
 > Collaborators are acknowledged within the project.
