@@ -1,0 +1,8 @@
+#codee
+CC=gcc
+SRC=main.c school.c
+OBJ=main.o school.o
+NAME=school
+
+all: $(SRC) $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
